@@ -27,7 +27,7 @@ lazy val library =
       val scalaTest = "3.0.3"
       val kamon = "0.6.6"
       val jackson = "2.8.7"
-      val akka = "2.5.1"
+      val akka = "2.5.7"
     }
 
     val jackson = Seq(
@@ -53,6 +53,7 @@ lazy val library =
     val lightbend = Seq(
       "com.typesafe"               % "config"                        % "1.3.1"            % Compile,
       "com.typesafe.akka"          %% "akka-actor"                   % Version.akka       % Compile,
+      "com.typesafe.akka"          %% "akka-stream"                  % Version.akka       % Compile,
       "com.typesafe.scala-logging" %% "scala-logging"                % "3.5.0"            % Compile
       )
 
